@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    font-family: 'Playpen Sans', cursive;
+    box-sizing : border-box;
+}
+.navbar{
+height:80px;
+background-color:rgb(36, 34, 34);
+color:white; /*text will be white*/
+display:flex;
+align-items:center;
+justify-content:space-evenly;
+}
+.nav-logo
+{
+ height:50px;
+ width:60px;
+}
+.logo
+{
+    background-image: url("artseum_logo.jpeg");
+    background-size:cover;
+    height:70px;
+    width:60px;
+}
+.add1{
+    color:#cccccc;
+    font-size:1rem;
+    margin-left:20px;
+}
+.add2{
+ font-size:1rem;
+ margin-left:20px;
+}
+.add-icon{
+    display:flex;
+    align-items:center;
+    display:flex;
+}
+.nav-search{
+    margin-left:20px;
+    display:flex;
+    justify-content:center;
+    width:550px;
+    height:40px;
+    border-radius:15px;
+}
+.search-select{
+    background-color:rgb(235, 210, 48);
+    width:50px;
+    border-top-left-radius:15px;
+    border-bottom-left-radius: 15px;
+    border:none;
+}
+.search-input{
+    width:400px;
+    font-size:1rem;
+    border:none;
+}
+.search-icon{
+    width:50px;
+    display:flex;
+    justify-content:center;/*vertically comes in center*/
+    align-items:center;/*center horizontally*/
+    font-size:1.2rem;
+    background-color:rgb(235, 210, 48);
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+}
+.navbar a{
+    list-style:none;
+    text-decoration:none;
+    color:white;
+}
+.navbar a:hover{
+color:(235, 210, 48);
+}
+.sidebar ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+}
+.sidebar{
+    position:fixed;
+    left:0px;
+    width:250px;
+    height:100%;
+    background:rgb(36, 34, 34);
+    transition:all .5s ease;
+}
+.sidebar header{
+    font-size:22px;
+    color:white;
+    text-align:center;
+    line-height:70px;
+}
+.sidebar ul a{
+    display:block;
+    height:100%;
+    width:100%;
+    line-height:65px;
+    color:white;
+    font-size:20px;
+    padding-left:40px;
+    box-sizing:border-box;
+    border-top:1px solid rgba(255,255,255,.1);
+    border-bottom:1px solid black;  
+}
+.sidebar a:hover{
+    background-color:rgb(235, 210, 48);
+    transition:0.5s;
+    letter-spacing:4px;
+    color:black;
+}
+/*#check{
+    display:none;
+}
+label #btn, label #cancel{
+    position:absolute;
+    cursor:pointer;
+    background:rgb(36, 34, 34);
+    border-radius:3px;
+}
+label #btn{
+    left:40px;
+    top:100px;
+    font-size:35px;
+    color:white;
+    padding:6px 12px;
+    transition:all .5s;
+}
+label #cancel{
+    z-index:1111;
+    left:-195px;
+    top: 100px;
+    font-size:30px;
+    color:white;
+    padding: 4px 9px;
+    transition:all .5s ease;
+
+}
+#check:checked ~.sidebar{
+    left: 0;
+}
+#check:checked ~ label #btn{
+    left:250px;
+    opacity : 0;
+    pointer-events:none;
+}
+#check:checked ~ label #cancel{
+left :195px;
+}
+#check:checked ~section{
+   margin-left: 250px;
+}*/
+section{
+    background:url('abstract_painting.jpg') no repeat;
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+    transition:all .5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
